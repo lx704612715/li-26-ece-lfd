@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="One demonstration, seven real-world contact-rich manipulation tasks, and a policy built from environmental constraints.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lx704612715.github.io/li-26-ece-lfd/">
+  <meta property="og:title" content="From a Single Demonstration to a General Policy for Contact-Rich Manipulation">
+  <meta property="og:description" content="Environmental constraints let a robot generalize a single demonstration across seven real-world contact-rich manipulation tasks.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="From a Single Demonstration to a General Policy for Contact-Rich Manipulation">
+  <meta name="twitter:description" content="One demonstration, seven real-world contact-rich manipulation tasks.">
+  <meta name="citation_title" content="From a Single Demonstration to a General Policy for Contact-Rich Manipulation">
+  <meta name="citation_author" content="Li, Xing">
+  <meta name="citation_author" content="Brock, Oliver">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_journal_title" content="The International Journal of Robotics Research">
+  <meta name="citation_arxiv_id" content="2605.17601">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2605.17601">
+  <title>From a Single Demonstration to a General Policy for Contact-Rich Manipulation</title>
+  <link rel="canonical" href="https://lx704612715.github.io/li-26-ece-lfd/">
+  <link rel="icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="static/css/page.css">
+  <script defer src="static/js/page.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "From a Single Demonstration to a General Policy for Contact-Rich Manipulation",
+    "author": [{"@type": "Person", "name": "Xing Li"}, {"@type": "Person", "name": "Oliver Brock"}],
+    "datePublished": "2026",
+    "url": "https://lx704612715.github.io/li-26-ece-lfd/",
+    "isAccessibleForFree": true
+  }
+  </script>
+</head>
+<body>
+  <main>
+    <header class="page-header wrap">
+      <h1>From a Single Demonstration to a General Policy for Contact-Rich Manipulation</h1>
+      <p class="authors"><a href="https://www.linkedin.com/in/xing-li-tub/">Xing Li</a> <span class="separator">·</span> Oliver Brock</p>
+      <div class="institution-logos" aria-label="Institutions">
+        <img class="logo-tu" src="static/images/logos/image2.png" width="662" height="155" alt="Technische Universität Berlin">
+        <img class="logo-rbo" src="static/images/logos/image1.png" width="1144" height="485" alt="RBO — Robotics and Biology Laboratory">
+        <img class="logo-sci" src="static/images/logos/image60.png" width="928" height="452" alt="Science of Intelligence">
+        <img class="logo-rig" src="static/images/logos/image63.png" width="337" height="161" alt="Robotics Institute Germany">
+      </div>
+      <p class="venue">The International Journal of Robotics Research · 2026</p>
+      <nav class="resource-links" aria-label="Paper resources">
+        <a href="static/paper/Li2026_IJRR_SingleDemonstration.pdf">Paper</a>
+        <a href="https://arxiv.org/abs/2605.17601">arXiv</a>
+        <span class="pending-link" aria-disabled="true" title="Repository link pending">Code</span>
+      </nav>
+    </header>
+
+    <section class="section wrap abstract-section" id="abstract" aria-labelledby="abstract-heading">
+      <h2 id="abstract-heading">Abstract</h2>
+      <p>We present a four-stage Learning from Demonstration (LfD) pipeline that incrementally constructs a general policy for multi-stage contact-rich manipulation from a single human demonstration. The pipeline is built around a crucial inductive bias—environmental constraints—that separates general task structure from hard-to-model instance-specific details. We show that, on top of this inductive bias, simple and well-established components are already sufficient to build an interactive LfD system that generalizes to unseen variations in object pose, local geometry, and contact conditions under real-world uncertainty. We validate the system on seven real-world multi-stage contact-rich manipulation tasks and achieve over 90% success across tasks. These results establish environmental constraints as fundamental building blocks for efficient generalization in learning from demonstration.</p>
+    </section>
+
+    <section class="section wrap" id="tasks" aria-labelledby="tasks-heading">
+      <div class="section-heading">
+        <h2 id="tasks-heading">Contact-Rich Tasks</h2>
+        <p>Seven real-world tasks, learned from one demonstration per task.</p>
+      </div>
+      <figure class="task-figure">
+        <img src="static/images/title_objects.jpg" width="2400" height="694" alt="Insertion puzzles, door locks, drawers, coffee machine, latches, Functional Manipulation Benchmark, and FurnitureBench tasks." fetchpriority="high">
+      </figure>
+
+      <h3 class="subheading">Real-world experiments</h3>
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-slot"><button type="button" class="video-launch" data-youtube="YpWSLxbv56U" aria-label="Play insertion puzzles experiment video"><img src="static/images/thumbs/YpWSLxbv56U.jpg" alt="" loading="lazy"><span class="play-icon" aria-hidden="true">▶</span></button></div>
+          <h4>Insertion puzzles</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><button type="button" class="video-launch" data-youtube="M32zC8Ua8Uo" aria-label="Play door locks experiment video"><img src="static/images/thumbs/M32zC8Ua8Uo.jpg" alt="" loading="lazy"><span class="play-icon" aria-hidden="true">▶</span></button></div>
+          <h4>Door locks with keys</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><button type="button" class="video-launch" data-youtube="7LygcSXw-sI" aria-label="Play coffee machine experiment video"><img src="static/images/thumbs/7LygcSXw-sI.jpg" alt="" loading="lazy"><span class="play-icon" aria-hidden="true">▶</span></button></div>
+          <h4>Coffee machine</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><button type="button" class="video-launch" data-youtube="Aanbi2sA4z8" aria-label="Play latches experiment video"><img src="static/images/thumbs/Aanbi2sA4z8.jpg" alt="" loading="lazy"><span class="play-icon" aria-hidden="true">▶</span></button></div>
+          <h4>Latches</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><button type="button" class="video-launch" data-youtube="QrqhHjoq4PE" aria-label="Play drawers experiment video"><img src="static/images/thumbs/QrqhHjoq4PE.jpg" alt="" loading="lazy"><span class="play-icon" aria-hidden="true">▶</span></button></div>
+          <h4>Drawers with handles</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><button type="button" class="video-launch" data-youtube="JyGBFfD7tcM" aria-label="Play Functional Manipulation Benchmark experiment video"><img src="static/images/thumbs/JyGBFfD7tcM.jpg" alt="" loading="lazy"><span class="play-icon" aria-hidden="true">▶</span></button></div>
+          <h4>Functional Manipulation Benchmark</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><button type="button" class="video-launch" data-youtube="wcwFR_lY5G8" aria-label="Play FurnitureBench experiment video"><img src="static/images/thumbs/wcwFR_lY5G8.jpg" alt="" loading="lazy"><span class="play-icon" aria-hidden="true">▶</span></button></div>
+          <h4>FurnitureBench</h4>
+        </article>
+      </div>
+      <p class="all-videos">More experiment and augmentation videos: <a href="https://www.youtube.com/playlist?list=PLDsDQLkZj4vk">full playlist ↗</a></p>
+    </section>
+
+    <section class="section wrap" id="method" aria-labelledby="method-heading">
+      <div class="section-heading">
+        <h2 id="method-heading">Methodology</h2>
+        <p>A policy follows environmental constraints instead of replaying a fixed trajectory.</p>
+      </div>
+      <figure class="primitive-figure">
+        <img src="static/images/ec_primitives.jpg" alt="The four environmental constraint primitives: free-space, plane, translation, and rotation." loading="lazy">
+      </figure>
+    </section>
+
+    <section class="section wrap code-section" id="code" aria-labelledby="code-heading">
+      <h2 id="code-heading">Open-Source Code &amp; Simulation</h2>
+      <p>The same four EC primitives also run in simulation. Preview clips below are placeholders for the upcoming simulation videos.</p>
+      <div class="video-grid simulation-grid">
+        <article class="video-card">
+          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Free-space simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
+          <h4>Free-space</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Plane simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
+          <h4>Plane</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Translation simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
+          <h4>Translation</h4>
+        </article>
+        <article class="video-card">
+          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Rotation simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
+          <h4>Rotation</h4>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer wrap">
+      <p>© 2026 Xing Li and Oliver Brock · <a href="https://arxiv.org/abs/2605.17601">arXiv</a> · <a href="https://www.youtube.com/playlist?list=PLDsDQLkZj4vk">All videos</a></p>
+      <p>Page based on the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a>, adapted from <a href="https://nerfies.github.io/">Nerfies</a>. Website content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
