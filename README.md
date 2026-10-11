@@ -10,7 +10,7 @@ to the Academic Project Page Template and Nerfies.
 ## Page order
 
 Title, authors and resource links · abstract · title figure · seven real-world experiment
-videos · four EC primitives figure · code and simulation · footer.
+videos · four EC primitives figure · Try it out! with code and simulation · footer.
 
 `index.html` loads `static/css/page.css`, `static/js/page.js`, and Google Sans / Noto
 Sans from Google Fonts (with local system font fallbacks). YouTube videos
@@ -21,6 +21,15 @@ The four institution logos in `static/images/logos/` are the original images
 extracted from the supplied “The World Is Its Own Best Model” PowerPoint deck:
 `image2.png` (TU Berlin), `image1.png` (RBO), `image60.png` (Science of Intelligence),
 and `image63.png` (Robotics Institute Germany).
+
+The Code button and “Try it out!” section link to
+[LfDEC](https://github.com/lx704612715/LfDEC). The section briefly describes the
+Isaac Lab / Newton implementation and presents the factory peg insertion and
+drawer opening simulation videos. The MP4 files in `static/videos/` are copied
+from `assets/examples/` at LfDEC commit
+`8ea7e1368b48960d9525b3e8e8dc549d3550e29c`; their posters in `static/images/`
+are frames extracted from those recordings. The players retain the recordings'
+original wide aspect ratio and use `preload="none"`.
 
 ## Publish on GitHub Pages
 
@@ -40,10 +49,8 @@ git push
 
 ## Things to fill in
 
-- **Code button:** replace the disabled `pending-link` span with a link to the public repository.
-- **Simulation videos:** four players in `#code` share the local dummy clip `static/videos/simulation-placeholder.mp4`. Replace each player's source and poster with the corresponding Free-space, Plane, Translation or Rotation recording, then remove the placeholder sentence. The dummy clip is a labeled slate, not a simulation result.
 - **Social preview:** add `og:image` and `twitter:image` when a final preview image is chosen. The canonical URL and `og:url` already use the GitHub Pages address.
-- **Multimedia count:** `LfD_Journal_IJRR.tex` says 15 extensions in its supplemental-material note, but its video links identify Extensions 1–14. The page links to seven experiment videos and the full playlist without claiming a total count.
+- **Multimedia count:** `LfD_Journal_IJRR.tex` says 15 extensions in its supplemental-material note, but its video links identify Extensions 1–14. The page embeds seven experiment videos without claiming a total count.
 
 ## Preview locally
 

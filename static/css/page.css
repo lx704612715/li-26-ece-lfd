@@ -24,9 +24,8 @@ button { font: inherit; }
 .logo-rig { width: 180px; }
 .venue { margin: .6rem 0 1.25rem; color: #363636; font-size: clamp(1.375rem, 2.4vw, 1.75rem); font-weight: 500; line-height: 1.4; }
 .resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem; }
-.resource-links a, .resource-links .pending-link { display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 44px; padding: .45rem 1.15rem; border-radius: 999px; background: #363636; color: #fff; font-size: 1.125rem; line-height: 1.5; text-decoration: none; }
+.resource-links a { display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 44px; padding: .45rem 1.15rem; border-radius: 999px; background: #363636; color: #fff; font-size: 1.125rem; line-height: 1.5; text-decoration: none; }
 .resource-links a:hover, .resource-links a:focus-visible { background: #242424; }
-.resource-links .pending-link { background: #e9e9e9; color: #767676; cursor: not-allowed; }
 .resource-links svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .section { padding-block: 3rem; }
 .section-muted { background: #f5f5f5; }
@@ -50,8 +49,9 @@ figure { margin: 0; }
 .video-launch:focus-visible { outline: 4px solid #2d72c7; outline-offset: -4px; }
 .play-icon { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 50%; background: rgba(0,0,0,.72); border: 2px solid #fff; font-size: 1.35rem; padding-left: .2rem; }
 .video-slot iframe, .video-slot video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
-.simulation-grid { margin-top: 2rem; }
-.all-videos { margin: 2rem 0 0; text-align: center; }
+.simulation-links { margin-top: 1.5rem; }
+.simulation-grid { margin-top: 2rem; grid-template-columns: 1fr; }
+.simulation-grid .video-slot { aspect-ratio: 3208 / 1080; }
 .primitive-figure { margin-top: 2rem; }
 .code-section { padding-bottom: 4rem; }
 .footer { padding: 3rem 0; background: #fafafa; font-size: 1rem; line-height: 1.6; }

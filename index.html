@@ -49,7 +49,7 @@
       <nav class="resource-links" aria-label="Paper resources">
         <a href="static/paper/Li2026_IJRR_SingleDemonstration.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Paper</a>
         <a href="https://arxiv.org/abs/2605.17601"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 3 14 18M5 21l6-8m2-2 6-8"/></svg>arXiv</a>
-        <span class="pending-link" aria-disabled="true" title="Repository link pending"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-14-2 16"/></svg>Code</span>
+        <a href="https://github.com/lx704612715/LfDEC"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-14-2 16"/></svg>Code</a>
       </nav>
     </header>
 
@@ -100,7 +100,6 @@
           <h4>FurnitureBench</h4>
         </article>
       </div>
-      <p class="all-videos">More experiment and augmentation videos: <a href="https://www.youtube.com/playlist?list=PLDsDQLkZj4vk">full playlist ↗</a></p>
     </section>
 
     <section class="section section-muted" id="method" aria-labelledby="method-heading">
@@ -116,31 +115,26 @@
     </section>
 
     <section class="section wrap code-section" id="code" aria-labelledby="code-heading">
-      <h2 id="code-heading">Open-Source Code &amp; Simulation</h2>
-      <p>The same four EC primitives also run in simulation. Preview clips below are placeholders for the upcoming simulation videos.</p>
+      <h2 id="code-heading">Try it out!</h2>
+      <p>We reimplemented LfDEC in Isaac Lab / Newton to make environmental constraint primitives easy to explore in simulation. After setup, a single command runs examples such as grasping, drawer and door opening, peg insertion, and nut turning.</p>
+      <nav class="resource-links simulation-links" aria-label="Simulation resources">
+        <a href="https://github.com/lx704612715/LfDEC">Code &amp; setup instructions ↗</a>
+      </nav>
       <div class="video-grid simulation-grid">
         <article class="video-card">
-          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Free-space simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
-          <h4>Free-space</h4>
+          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/images/factory_peg_insert.jpg" aria-label="Factory peg insertion simulation"><source src="static/videos/factory_peg_insert.mp4" type="video/mp4"></video></div>
+          <h4>Factory peg insertion</h4>
         </article>
         <article class="video-card">
-          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Plane simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
-          <h4>Plane</h4>
-        </article>
-        <article class="video-card">
-          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Translation simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
-          <h4>Translation</h4>
-        </article>
-        <article class="video-card">
-          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/videos/simulation-placeholder.svg" aria-label="Rotation simulation placeholder"><source src="static/videos/simulation-placeholder.mp4" type="video/mp4"></video></div>
-          <h4>Rotation</h4>
+          <div class="video-slot"><video controls muted playsinline preload="none" poster="static/images/drawer_opening.jpg" aria-label="Drawer opening simulation"><source src="static/videos/drawer_opening.mp4" type="video/mp4"></video></div>
+          <h4>Drawer opening</h4>
         </article>
       </div>
     </section>
 
     <footer class="footer">
       <div class="wrap">
-      <p>© 2026 Xing Li and Oliver Brock · <a href="https://arxiv.org/abs/2605.17601">arXiv</a> · <a href="https://www.youtube.com/playlist?list=PLDsDQLkZj4vk">All videos</a></p>
+      <p>© 2026 Xing Li and Oliver Brock</p>
       <p>Page based on the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a>, adapted from <a href="https://nerfies.github.io/">Nerfies</a>. Website content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
       <div class="institution-logos" aria-label="Institutions">
         <img class="logo-tu" src="static/images/logos/image2.png" width="662" height="155" alt="Technische Universität Berlin" loading="lazy">
