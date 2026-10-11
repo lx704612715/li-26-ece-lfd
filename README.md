@@ -10,7 +10,7 @@ to the Academic Project Page Template and Nerfies.
 ## Page order
 
 Title, authors and resource links · abstract · title figure · seven real-world experiment
-videos · four EC primitives figure · Try it out! with code and simulation · footer.
+videos · Try it out! with code and simulation · footer.
 
 `index.html` loads `static/css/page.css`, `static/js/page.js`, and Google Sans / Noto
 Sans from Google Fonts (with local system font fallbacks). YouTube videos

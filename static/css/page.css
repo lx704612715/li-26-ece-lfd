@@ -37,7 +37,7 @@ button { font: inherit; }
 .abstract-section p { margin: 0; font-size: 1.25rem; line-height: 1.7; text-align: justify; }
 .code-section > p { max-width: 860px; margin: 0 auto; text-align: left; }
 figure { margin: 0; }
-.task-figure img, .primitive-figure img { display: block; width: 100%; height: auto; }
+.task-figure img { display: block; width: 100%; height: auto; }
 .task-figure { margin: 1.4rem 0 2.5rem; }
 .subheading { margin: 0 0 1.5rem; text-align: center; font-size: 1.6rem; font-weight: 600; }
 .video-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.5rem; }
@@ -52,7 +52,6 @@ figure { margin: 0; }
 .simulation-links { margin-top: 1.5rem; }
 .simulation-grid { margin-top: 2rem; grid-template-columns: 1fr; }
 .simulation-grid .video-slot { aspect-ratio: 3208 / 1080; }
-.primitive-figure { margin-top: 2rem; }
 .code-section { padding-bottom: 4rem; }
 .footer { padding: 3rem 0; background: #fafafa; font-size: 1rem; line-height: 1.6; }
 .footer p { max-width: 860px; margin: 0 auto 1rem; }
