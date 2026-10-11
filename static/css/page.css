@@ -35,7 +35,7 @@ button { font: inherit; }
 .section-heading p { margin: 0; }
 .reading-width { max-width: 860px; }
 .abstract-section p { margin: 0; font-size: 1.25rem; line-height: 1.7; text-align: justify; }
-.code-section > p { max-width: 860px; margin: 0 auto; text-align: center; }
+.code-section > p { max-width: 860px; margin: 0 auto; text-align: left; }
 figure { margin: 0; }
 .task-figure img, .primitive-figure img { display: block; width: 100%; height: auto; }
 .task-figure { margin: 1.4rem 0 2.5rem; }
