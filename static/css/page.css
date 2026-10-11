@@ -32,10 +32,10 @@ button { font: inherit; }
 .section h2 { margin: 0 0 1.5rem; color: #363636; text-align: center; font-family: 'Google Sans', 'Noto Sans', Arial, sans-serif; font-size: clamp(1.9rem, 3vw, 2.25rem); font-weight: 700; line-height: 1.2; }
 .section-heading { margin-bottom: 1.75rem; text-align: center; }
 .section-heading h2 { margin-bottom: .8rem; }
-.section-heading p { margin: 0; }
+.section-heading p { margin: 0; text-align: left; }
 .reading-width { max-width: 860px; }
 .abstract-section p { margin: 0; font-size: 1.25rem; line-height: 1.7; text-align: justify; }
-.code-section > p { max-width: 860px; margin: 0 auto; text-align: left; }
+.code-section > p { margin: 0; text-align: left; }
 figure { margin: 0; }
 .task-figure img { display: block; width: 100%; height: auto; }
 .task-figure { margin: 1.4rem 0 2.5rem; }
