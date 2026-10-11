@@ -1,14 +1,19 @@
 # Project page: From a Single Demonstration to a General Policy for Contact-Rich Manipulation
 
 Static project page for the IJRR 2026 paper by Xing Li and Oliver Brock. No build step.
-The footer retains credit to the Academic Project Page Template and Nerfies.
+The layout follows the [RBO Mengers ICRA 2025 project page](https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-icra-25/):
+a two-part title, linked authors and affiliations, rounded resource buttons,
+centered section headings, pale gray section backgrounds, and institution logos in
+the footer. Body text remains larger for readability. The footer retains credit
+to the Academic Project Page Template and Nerfies.
 
 ## Page order
 
 Title, authors and resource links · abstract · title figure · seven real-world experiment
 videos · four EC primitives figure · code and simulation · footer.
 
-`index.html` loads only `static/css/page.css` and `static/js/page.js`. YouTube videos
+`index.html` loads `static/css/page.css`, `static/js/page.js`, and Google Sans / Noto
+Sans from Google Fonts (with local system font fallbacks). YouTube videos
 load when clicked. Other template styles and scripts remain in `static/` but are no
 longer used.
 

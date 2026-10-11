@@ -22,6 +22,9 @@
   <link rel="canonical" href="https://lx704612715.github.io/li-26-ece-lfd/">
   <link rel="icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700%7CNoto+Sans:400,600,700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/page.css">
   <script defer src="static/js/page.js"></script>
   <script type="application/ld+json">
@@ -39,25 +42,22 @@
 <body>
   <main>
     <header class="page-header wrap">
-      <h1>From a Single Demonstration to a General Policy for Contact-Rich Manipulation</h1>
-      <p class="authors"><a href="https://www.linkedin.com/in/xing-li-tub/">Xing Li</a> <span class="separator">·</span> Oliver Brock</p>
-      <div class="institution-logos" aria-label="Institutions">
-        <img class="logo-tu" src="static/images/logos/image2.png" width="662" height="155" alt="Technische Universität Berlin">
-        <img class="logo-rbo" src="static/images/logos/image1.png" width="1144" height="485" alt="RBO — Robotics and Biology Laboratory">
-        <img class="logo-sci" src="static/images/logos/image60.png" width="928" height="452" alt="Science of Intelligence">
-        <img class="logo-rig" src="static/images/logos/image63.png" width="337" height="161" alt="Robotics Institute Germany">
-      </div>
+      <h1><span class="title-lead">From a Single Demonstration</span> <span class="title-detail">to a General Policy for Contact-Rich Manipulation</span></h1>
+      <p class="authors"><a href="https://www.linkedin.com/in/xing-li-tub/">Xing Li</a> <a href="https://www.tu.berlin/en/robotics/about-rbo/prof-dr-oliver-brock">Oliver Brock</a></p>
+      <p class="affiliations"><a href="https://www.tu.berlin/">Technische Universität Berlin</a> <span aria-hidden="true">/</span> <a href="https://www.scienceofintelligence.de/">Science of Intelligence</a></p>
       <p class="venue">The International Journal of Robotics Research · 2026</p>
       <nav class="resource-links" aria-label="Paper resources">
-        <a href="static/paper/Li2026_IJRR_SingleDemonstration.pdf">Paper</a>
-        <a href="https://arxiv.org/abs/2605.17601">arXiv</a>
-        <span class="pending-link" aria-disabled="true" title="Repository link pending">Code</span>
+        <a href="static/paper/Li2026_IJRR_SingleDemonstration.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Paper</a>
+        <a href="https://arxiv.org/abs/2605.17601"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 3 14 18M5 21l6-8m2-2 6-8"/></svg>arXiv</a>
+        <span class="pending-link" aria-disabled="true" title="Repository link pending"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-14-2 16"/></svg>Code</span>
       </nav>
     </header>
 
-    <section class="section wrap abstract-section" id="abstract" aria-labelledby="abstract-heading">
+    <section class="section section-muted abstract-section" id="abstract" aria-labelledby="abstract-heading">
+      <div class="wrap reading-width">
       <h2 id="abstract-heading">Abstract</h2>
       <p>We present a four-stage Learning from Demonstration (LfD) pipeline that incrementally constructs a general policy for multi-stage contact-rich manipulation from a single human demonstration. The pipeline is built around a crucial inductive bias—environmental constraints—that separates general task structure from hard-to-model instance-specific details. We show that, on top of this inductive bias, simple and well-established components are already sufficient to build an interactive LfD system that generalizes to unseen variations in object pose, local geometry, and contact conditions under real-world uncertainty. We validate the system on seven real-world multi-stage contact-rich manipulation tasks and achieve over 90% success across tasks. These results establish environmental constraints as fundamental building blocks for efficient generalization in learning from demonstration.</p>
+      </div>
     </section>
 
     <section class="section wrap" id="tasks" aria-labelledby="tasks-heading">
@@ -103,7 +103,8 @@
       <p class="all-videos">More experiment and augmentation videos: <a href="https://www.youtube.com/playlist?list=PLDsDQLkZj4vk">full playlist ↗</a></p>
     </section>
 
-    <section class="section wrap" id="method" aria-labelledby="method-heading">
+    <section class="section section-muted" id="method" aria-labelledby="method-heading">
+      <div class="wrap">
       <div class="section-heading">
         <h2 id="method-heading">Methodology</h2>
         <p>A policy follows environmental constraints instead of replaying a fixed trajectory.</p>
@@ -111,6 +112,7 @@
       <figure class="primitive-figure">
         <img src="static/images/ec_primitives.jpg" alt="The four environmental constraint primitives: free-space, plane, translation, and rotation." loading="lazy">
       </figure>
+      </div>
     </section>
 
     <section class="section wrap code-section" id="code" aria-labelledby="code-heading">
@@ -136,9 +138,17 @@
       </div>
     </section>
 
-    <footer class="footer wrap">
+    <footer class="footer">
+      <div class="wrap">
       <p>© 2026 Xing Li and Oliver Brock · <a href="https://arxiv.org/abs/2605.17601">arXiv</a> · <a href="https://www.youtube.com/playlist?list=PLDsDQLkZj4vk">All videos</a></p>
       <p>Page based on the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a>, adapted from <a href="https://nerfies.github.io/">Nerfies</a>. Website content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <div class="institution-logos" aria-label="Institutions">
+        <img class="logo-tu" src="static/images/logos/image2.png" width="662" height="155" alt="Technische Universität Berlin" loading="lazy">
+        <img class="logo-rbo" src="static/images/logos/image1.png" width="1144" height="485" alt="RBO — Robotics and Biology Laboratory" loading="lazy">
+        <img class="logo-sci" src="static/images/logos/image60.png" width="928" height="452" alt="Science of Intelligence" loading="lazy">
+        <img class="logo-rig" src="static/images/logos/image63.png" width="337" height="161" alt="Robotics Institute Germany" loading="lazy">
+      </div>
+      </div>
     </footer>
   </main>
 </body>
