@@ -1,6 +1,7 @@
 # Project page: From a Single Demonstration to a General Policy for Contact-Rich Manipulation
 
 Static project page for the IJRR 2026 paper by Xing Li and Oliver Brock. No build step.
+The Paper button links directly to the arXiv PDF; no paper PDF is bundled with the site.
 The layout follows the [RBO Mengers ICRA 2025 project page](https://rbo.gitlab-pages.tu-berlin.de/papers/mengers-icra-25/):
 a two-part title, linked authors and affiliations, rounded resource buttons,
 centered section headings, pale gray section backgrounds, and institution logos in
